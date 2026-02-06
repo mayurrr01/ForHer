@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For You 🌸</title>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #ffd1dc, #fff);
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.flower {
+  font-size: 120px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ff4d6d;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e63950;
+}
+
+#message {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #333;
+  display: none;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="flower">🌸</div>
+  <button onclick="showMessage()">PRESS</button>
+
+  <div id="message">
+    🌱 <br><br>
+    <b>You don’t need to go back to what broke you.</b><br><br>
+    Jo chala gaya, wo tumhari value decide nahi karta.  
+    Tum strong ho, tum deserving ho, aur tumhara best phase abhi aana baaki hai. 💫  
+    <br><br>
+    Kabhi kabhi move on ka matlab bhoolna nahi hota,  
+    bas khud ko choose karna hota hai.  
+    <br><br>
+    <i>And honestly… someone out there is going to value you exactly the way you deserve.</i> 💖
+  </div>
+</div>
+
+<script>
+function showMessage() {
+  document.getElementById("message").style.display = "block";
+}
+</script>
+</body>
+</html>
